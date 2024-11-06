@@ -1,0 +1,8 @@
+﻿  pch.cpp
+  UnitTest1.cpp
+     Creating library C:\Users\karin\source\repos\lab9.1\x64\Debug\UnitTest1.lib and object C:\Users\karin\source\repos\lab9.1\x64\Debug\UnitTest1.exp
+UnitTest1.obj : error LNK2019: unresolved external symbol "void __cdecl nsSum::sum(void)" (?sum@nsSum@@YAXXZ) referenced in function "public: void __cdecl SumTests::SumTests::TestSumFunction(void)" (?TestSumFunction@SumTests@1@QEAAXXZ)
+UnitTest1.obj : error LNK2001: unresolved external symbol "double nsVar::x" (?x@nsVar@@3NA)
+UnitTest1.obj : error LNK2001: unresolved external symbol "double nsVar::s" (?s@nsVar@@3NA)
+UnitTest1.obj : error LNK2001: unresolved external symbol "double nsVar::eps" (?eps@nsVar@@3NA)
+C:\Users\karin\source\repos\lab9.1\x64\Debug\UnitTest1.dll : fatal error LNK1120: 4 unresolved externals
